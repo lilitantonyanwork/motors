@@ -116,8 +116,7 @@ window.onload = function(){
 
     var openButton = document.getElementById('menu');
     document.onclick = function(e){
-        console.log('aaa')
-        console.log(e.target)
+
         if(e.target.id != 'popup' || e.target.id !=  'openButton'){
             menu.classList.remove('show');
         }
